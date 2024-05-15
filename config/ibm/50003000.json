@@ -315,7 +315,9 @@
                 "inventoryPath": "/system/chassis/motherboard/pcieslot12/pcie_card12",
                 "inherit": false,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-T1"
                     },
@@ -2062,7 +2064,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C0"
                     },
@@ -2097,7 +2101,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C1"
                     },
@@ -2132,7 +2138,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C2"
                     },
@@ -2167,7 +2175,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C3"
                     },
@@ -2202,7 +2212,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C4"
                     },
@@ -2237,7 +2249,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C5"
                     },
@@ -2272,7 +2286,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C6"
                     },
@@ -2307,7 +2323,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C7"
                     },
@@ -2342,7 +2360,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C8"
                     },
@@ -2377,7 +2397,9 @@
                 "driverType": "at24",
                 "concurrentlyMaintainable": true,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P1-C9"
                     },
@@ -2535,7 +2557,9 @@
                     "gpioI2CAddress": "4-0065"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C1"
@@ -2601,7 +2625,9 @@
                     "gpioI2CAddress": "4-0065"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C2"
@@ -2669,7 +2695,9 @@
                     "gpioI2CAddress": "4-0065"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C3"
@@ -2737,7 +2765,9 @@
                     "gpioI2CAddress": "4-0065"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C4"
@@ -2805,7 +2835,9 @@
                     "gpioI2CAddress": "4-0065"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C5"
@@ -2873,7 +2905,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C6"
                     },
@@ -2910,7 +2944,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C7"
@@ -2978,7 +3014,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C8"
@@ -3046,7 +3084,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C9"
                     },
@@ -3083,7 +3123,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C10"
@@ -3151,7 +3193,9 @@
                     "gpioI2CAddress": "5-0066"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C11"
