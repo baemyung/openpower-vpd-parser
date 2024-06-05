@@ -225,7 +225,9 @@
                 "inventoryPath": "/system/chassis/motherboard/pcieslot12/pcie_card12",
                 "inherit": false,
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "0"
+                    },
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-T18"
                     },
@@ -1421,7 +1423,9 @@
                     "gpioI2CAddress": "8-0061"
                 },
                 "extraInterfaces": {
-                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": null,
+                    "xyz.openbmc_project.Inventory.Item.PCIeDevice": {
+                        "LanesInUse": "maxint"
+                    },
                     "xyz.openbmc_project.Inventory.Item.FabricAdapter": null,
                     "com.ibm.ipzvpd.Location": {
                         "LocationCode": "Ufcs-P0-C11"
